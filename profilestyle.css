@@ -1,0 +1,100 @@
+
+
+
+.background {
+	/* background-color: lightpink */
+}
+
+.container {
+	padding-bottom:30px;
+  	border-radius:1em;
+	padding-bottom:30px;
+  	border-radius:1em;
+	display: flex;
+	flex-direction: column;
+/*	flex-wrap: wrap;*/
+	gap: 10px;
+	padding: 10px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 5vh;
+	font-weight: bold;
+	padding-bottom: 20px;
+
+}
+
+.header2{
+	margin-left: 30px;
+	width: 20vw;
+	height: 15vh;
+	display: flex;
+	align-items: center;
+	
+}
+
+
+.text{
+	margin-left: 10px;
+	width:85vw;
+}
+
+.name{
+	font-weight: bold;
+	font-size:x-large;
+}
+
+.contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.email {
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
+}
+
+.phone {
+	display: flex;
+	align-items: center;
+}
+
+.resize {
+	border-radius: 50%;
+	width: 80px;
+	height: auto;
+}
+
+.body {
+	/* background-color: #6495ed; */
+	height: 60vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.info {
+	width: 70vw;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: white;
+	border: 1px darkblue;
+}
+
+.similarprofiles {
+	/* background-color: blue; */
+	border: 1px darkblue;
+}
+
+.otherpeople{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
